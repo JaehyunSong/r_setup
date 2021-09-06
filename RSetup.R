@@ -9,7 +9,7 @@ install.packages("tidyverse")
 install.packages("fastDummies")
 install.packages("summarytools")
 
-# For R Markdown
+# R Markdown
 install.packages("knitr")
 install.packages("rmarkdown")
 install.packages("styler")
@@ -24,14 +24,14 @@ remotes::install_github("gadenbuie/xaringanExtra")
 remotes::install_github("jhelvy/xaringanBuilder")
 remotes::install_github('Gedevan-Aleksizde/rmdja')
 
-# For Shiny
+# Shiny
 install.packages("shiny")
 install.packages("shiny.i18n")
 install.packages("bslib")
 install.packages("shinyBS")
 install.packages("shinyjs")
 
-# For Visualization
+# Visualization
 install.packages("GGally")
 install.pacakges("gghighlight")
 install.pacakges("ggExtra")
@@ -52,7 +52,7 @@ remotes::install_github("uribo/jpndistrict")
 remotes::install_github("haleyjeppson/ggmosaic")
 remotes::install_github("mitchelloharawild/icons")
 
-# For Estimation
+# Estimation
 install.packages("stargazer")
 install.packages("modelsummary")
 install.packages("estimatr")
