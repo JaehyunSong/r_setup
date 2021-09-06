@@ -11,6 +11,8 @@ install.packages("fastDummies")
 # For R Markdown
 install.packages("knitr")
 install.packages("rmarkdown")
+install.packages("styler")
+install.packages("commonmark")
 install.packages("kableExtra")
 install.packages("bookdown")
 install.packages("blogdown")
@@ -19,6 +21,7 @@ install.packages("chromote")
 install.packages("DT")
 remotes::install_github("gadenbuie/xaringanExtra")
 remotes::install_github("jhelvy/xaringanBuilder")
+remotes::install_github('Gedevan-Aleksizde/rmdja')
 
 # For Shiny
 install.packages("shiny")
