@@ -7,6 +7,7 @@ install.pacakges("xlsx")
 install.pacakges("haven")
 install.packages("tidyverse")
 install.packages("fastDummies")
+install.packages("summarytools")
 
 # For R Markdown
 install.packages("knitr")
@@ -52,6 +53,8 @@ remotes::install_github("haleyjeppson/ggmosaic")
 remotes::install_github("mitchelloharawild/icons")
 
 # For Estimation
+install.packages("stargazer")
+install.packages("modelsummary")
 install.packages("estimatr")
 install.packages("rstan")
 install.packages("margins")
