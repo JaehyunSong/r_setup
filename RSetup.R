@@ -33,6 +33,7 @@ install.packages("shinyjs")
 
 # Visualization
 install.packages("GGally")
+install.packages("ggpubr")
 install.packages("gghighlight")
 install.packages("ggExtra")
 install.packages("ggridges")
