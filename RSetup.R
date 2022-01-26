@@ -63,6 +63,7 @@ install.packages("estimatr")
 install.packages("rstan")
 install.packages("margins")
 install.packages("prediction")
+install.packages("list")      # Item Count Technique (List Experiment)
 install.packages("rdd")       # Regression Discontinuity Design
 install.packages("rdrobust")  # Regression Discontinuity Design
 install.packages("rddensity") # Density test for RDD
