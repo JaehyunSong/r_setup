@@ -3,7 +3,7 @@ install.packages("remotes")
 install.packages("pacman")
 
 # Data Handling
-install.packages("xlsx")
+install.packages("readxl")
 install.packages("haven")
 install.packages("tidyverse")
 install.packages("fastDummies")
@@ -18,7 +18,7 @@ install.packages("kableExtra")
 install.packages("bookdown")
 install.packages("blogdown")
 install.packages("xaringan")
-install.packages("chromote")
+remotes::install_github("rstudio/chromote")
 install.packages("DT")
 install.packages("gt")
 remotes::install_github("gadenbuie/xaringanExtra")
@@ -40,6 +40,7 @@ install.packages("ggExtra")
 install.packages("ggridges")
 install.packages("rnaturalearth")
 install.packages("rnaturalearthdata")
+remotes::install_github("ropensci/rnaturalearthhires")
 install.packages("ggalluvial")
 install.packages("treemapify")
 install.packages("ggbump")
@@ -49,7 +50,7 @@ install.packages("ragg")
 install.packages("ghibli")
 install.packages("hrbrthemes")
 install.packages("ggdag")
-install.packages("daggity")
+install.packages("dagitty")
 remotes::install_github("uribo/jpndistrict")
 remotes::install_github("haleyjeppson/ggmosaic")
 remotes::install_github("mitchelloharawild/icons")
@@ -73,5 +74,8 @@ remotes::install_github("JaehyunSong/BalanceR") # Balance Check
 install.packages("titanic")
 install.packages("gapminder")
 remotes::install_github("xmarquez/democracyData") # Polity V, Freedom House, ...
-devtools::install_github("ropengov/rqog") # Quality of Governance
-devtools::install_github("vdeminstitute/vdemdata") # V-dem
+remotes::install_github("ropengov/rqog") # Quality of Governance
+remotes::install_github("vdeminstitute/vdemdata") # V-dem
+
+# Development
+install.packages("fusen")
