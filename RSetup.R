@@ -31,6 +31,7 @@ install.packages("shiny.i18n")
 install.packages("bslib")
 install.packages("shinyBS")
 install.packages("shinyjs")
+install.packages("golem")
 
 # Visualization
 install.packages("GGally")
