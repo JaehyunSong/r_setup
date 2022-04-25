@@ -24,6 +24,7 @@ install.packages("gt")
 remotes::install_github("gadenbuie/xaringanExtra")
 remotes::install_github("jhelvy/xaringanBuilder")
 remotes::install_github('Gedevan-Aleksizde/rmdja')
+install.packages("quarto")
 
 # Shiny
 install.packages("shiny")
