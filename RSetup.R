@@ -1,40 +1,38 @@
+# General
 install.packages("devtools")
 install.packages("remotes")
 install.packages("pacman")
 
 # Data Handling
-install.packages("readxl")
-install.packages("haven")
 install.packages("tidyverse")
+install.packages("readxl")
 install.packages("fastDummies")
-install.packages("summarytools")
 
 # R Markdown
-install.packages("knitr")
-install.packages("rmarkdown")
+install.packages("quarto")
 install.packages("styler")
+install.packages("formatR")
 install.packages("commonmark")
 install.packages("kableExtra")
 install.packages("bookdown")
 install.packages("blogdown")
 install.packages("xaringan")
-remotes::install_github("rstudio/chromote")
 install.packages("DT")
 install.packages("gt")
+remotes::install_github("rstudio/chromote")
 remotes::install_github("gadenbuie/xaringanExtra")
 remotes::install_github("jhelvy/xaringanBuilder")
 remotes::install_github('Gedevan-Aleksizde/rmdja')
-install.packages("quarto")
 
 # Shiny
 install.packages("shiny")
 install.packages("shiny.i18n")
-install.packages("bslib")
 install.packages("shinyBS")
 install.packages("shinyjs")
 install.packages("golem")
 
 # Visualization
+install.packages("ragg")
 install.packages("GGally")
 install.packages("ggpubr")
 install.packages("gghighlight")
@@ -46,32 +44,28 @@ remotes::install_github("ropensci/rnaturalearthhires")
 install.packages("ggalluvial")
 install.packages("treemapify")
 install.packages("ggbump")
+install.packages("ggmosaic")
 install.packages("dendextend")
 install.packages("ggdendro")
-install.packages("ragg")
 install.packages("ghibli")
 install.packages("hrbrthemes")
 install.packages("ggdag")
-install.packages("dagitty")
 remotes::install_github("uribo/jpndistrict")
-remotes::install_github("haleyjeppson/ggmosaic")
 remotes::install_github("mitchelloharawild/icons")
 
 # Estimation
+install.packages("summarytools")
 install.packages("stargazer")
 install.packages("modelsummary")
 install.packages("estimatr")
 install.packages("rstan")
 install.packages("margins")
-install.packages("prediction")
 install.packages("list")      # Item Count Technique (List Experiment)
 install.packages("rdd")       # Regression Discontinuity Design
 install.packages("rdrobust")  # Regression Discontinuity Design
 install.packages("rddensity") # Density test for RDD
 install.packages("cjoint") # Conjoint Analysis
 install.packages("cregg")  # Conjoint Analysis
-remotes::install_github("JaehyunSong/BalanceR") # Balance Check
-
 
 # Datasets
 install.packages("titanic")
@@ -82,3 +76,9 @@ remotes::install_github("vdeminstitute/vdemdata") # V-dem
 
 # Development
 install.packages("fusen")
+
+# My Packages
+remotes::install_github("JaehyunSong/BalanceR")
+remotes::install_github("JaehyunSong/PRcalc")
+remotes::install_github("JaehyunSong/SimpleConjoint")
+remotes::install_github("JaehyunSong/woRdle")
