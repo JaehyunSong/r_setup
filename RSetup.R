@@ -60,6 +60,7 @@ install.packages("modelsummary")
 install.packages("estimatr")
 install.packages("rstan")
 install.packages("margins")
+install.packages("marginaleffects")
 install.packages("list")      # Item Count Technique (List Experiment)
 install.packages("rdd")       # Regression Discontinuity Design
 install.packages("rdrobust")  # Regression Discontinuity Design
