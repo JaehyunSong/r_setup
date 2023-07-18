@@ -7,6 +7,7 @@ install.packages("pacman")
 install.packages("tidyverse")
 install.packages("readxl")
 install.packages("fastDummies")
+install.packages("naniar")
 
 # R Markdown
 install.packages("quarto")
@@ -30,6 +31,7 @@ install.packages("shiny")
 install.packages("shiny.i18n")
 install.packages("shinyBS")
 install.packages("shinyjs")
+install.packages("shinythemes")
 install.packages("golem")
 
 # Visualization
@@ -60,6 +62,7 @@ install.packages("stargazer")
 install.packages("modelsummary")
 install.packages("estimatr")
 install.packages("rstan")
+install.packages("rjags")
 install.packages("margins")
 install.packages("marginaleffects")
 install.packages("list")      # Item Count Technique (List Experiment)
