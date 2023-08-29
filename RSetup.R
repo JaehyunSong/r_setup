@@ -9,7 +9,7 @@ install.packages("readxl")
 install.packages("fastDummies")
 install.packages("naniar")
 
-# R Markdown
+# R Markdown & Quarto
 install.packages("quarto")
 install.packages("styler")
 install.packages("formatR")
@@ -24,7 +24,7 @@ install.packages("gtExtras")
 remotes::install_github("rstudio/chromote")
 remotes::install_github("gadenbuie/xaringanExtra")
 remotes::install_github("jhelvy/xaringanBuilder")
-remotes::install_github('Gedevan-Aleksizde/rmdja')
+remotes::install_github("Gedevan-Aleksizde/rmdja")
 
 # Shiny
 install.packages("shiny")
@@ -32,6 +32,7 @@ install.packages("shiny.i18n")
 install.packages("shinyBS")
 install.packages("shinyjs")
 install.packages("shinythemes")
+install.packages("shinyWidgets")
 install.packages("golem")
 
 # Visualization
@@ -43,18 +44,20 @@ install.packages("ggExtra")
 install.packages("ggridges")
 install.packages("rnaturalearth")
 install.packages("rnaturalearthdata")
-remotes::install_github("ropensci/rnaturalearthhires")
 install.packages("ggalluvial")
 install.packages("treemapify")
 install.packages("ggbump")
 install.packages("ggmosaic")
 install.packages("dendextend")
 install.packages("ggdendro")
-install.packages("ghibli")
-install.packages("hrbrthemes")
 install.packages("ggdag")
+remotes::install_github("ropensci/rnaturalearthhires")
 remotes::install_github("uribo/jpndistrict")
 remotes::install_github("mitchelloharawild/icons")
+
+# Themes for {ggplot2}
+install.packages("ghibli")
+install.packages("hrbrthemes")
 
 # Estimation
 install.packages("summarytools")
@@ -81,9 +84,11 @@ remotes::install_github("vdeminstitute/vdemdata") # V-dem
 
 # Development
 install.packages("fusen")
+install.packages("S7")
 
 # My Packages
 remotes::install_github("JaehyunSong/BalanceR")
 remotes::install_github("JaehyunSong/PRcalc")
 remotes::install_github("JaehyunSong/SimpleConjoint")
 remotes::install_github("JaehyunSong/woRdle")
+remotes::install_github("JaehyunSong/q2c")
